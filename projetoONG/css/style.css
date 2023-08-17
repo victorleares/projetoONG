@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --cor-primaria:  rgb(255, 0, 0);
+    --cor-secundaria: rgb(0, 0, 0);
+    --cor-hover: rgb(0, 0, 0);
+}
+
+.cabecalho {
+    height: 60px;
+    background-color: var(--cor-primaria);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-size: 18px;
+}
+
+.menu ul li a:hover {
+    color: var(--cor-hover);
+}
+
+.secao-titulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card, .card-descricao, .card-botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    margin: 15px;
+}
+
+.card {
+    border: 1px solid var(--cor-primaria); 
+    width: 450px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.card-img {
+    width: 100%;
+
+}
+
+.card-img img{
+    width: 40%;
+}
+
+.card-descricao {
+    flex-grow: 1;
+}
+
+.card-botao {
+    width: 100%;
+}
+
+.card-botao button {
+    width: 60%;
+    height: 30px;
+    background-color: var(--cor-primaria);
+    border: 2px solid var(--cor-primaria);
+}
+
+.card-botao button a {
+    text-decoration: none;
+    color: var(--cor-hover);
+    font-weight: bold;
+    font-size: 15px;
+    
+
+}
+
+.card-botao button:hover {
+    background-color: var(--cor-hover);
+}
