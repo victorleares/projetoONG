@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,6 +6,7 @@
     --cor-primaria:  rgb(255, 0, 0);
     --cor-secundaria: rgb(0, 0, 0);
     --cor-hover: rgb(0, 0, 0);
+    font-family: 'Titan One', cursive;
 }
 
 .cabecalho {
@@ -40,11 +42,19 @@
     gap: 10px;
 }
 
+
 .container-card {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
+}
+
+.titulos-secao {
+    text-align: center;
+    margin: 28px;
+    color: var(--cor-primaria);
+    font-size: 35px;
 }
 
 .card, .card-descricao, .card-botao{
@@ -95,7 +105,7 @@
 
 .card-botao button a {
     text-decoration: none;
-    color: var(--cor-hover);
+    color: var(--cor-hover); 
     font-weight: bold;
     font-size: 15px;
     
@@ -104,4 +114,9 @@
 
 .card-botao button:hover {
     background-color: var(--cor-hover);
+    
+}
+
+.card-botao button a:hover {
+    color: white;
 }
