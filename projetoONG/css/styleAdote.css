@@ -1,0 +1,15 @@
+form {
+    border:2px solid var(--cor-primaria);
+    border-radius: 10px;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    color: var(--cor-primaria);
+    text-align: center;
+}

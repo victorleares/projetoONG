@@ -1,0 +1,86 @@
+.secao-titulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.titulos-secao {
+    text-align: center;
+    margin: 28px;
+    color: var(--cor-primaria);
+    font-size: 35px;
+}
+
+.card, .card-descricao, .card-botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    margin: 15px;
+}
+
+.card {
+    border: 1px solid var(--cor-primaria); 
+    width: 450px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.card-img {
+    width: 100%;
+
+}
+
+.card-img img{
+    width: 100%;
+}
+
+.card-descricao {
+    flex-grow: 1;
+}
+
+.card-botao {
+    width: 100%;
+}
+
+.card-botao button {
+    width: 60%;
+    height: 30px;
+    background-color: var(--cor-primaria);
+    border: 2px solid var(--cor-primaria);
+}
+
+.card-botao button a {
+    text-decoration: none;
+    color: var(--cor-hover); 
+    font-weight: bold;
+    font-size: 15px;
+    
+
+}
+
+.card-botao button:hover {
+    background-color: var(--cor-hover);
+    
+}
+
+.card-botao button a:hover {
+    color: white;
+}
