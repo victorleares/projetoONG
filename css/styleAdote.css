@@ -1,0 +1,39 @@
+form {
+    border:2px solid var(--cor-primaria);
+    border-radius: 10px;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    color: var(--cor-primaria);
+    text-align: center;
+}
+
+form > div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container-radio, .container-checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input:not(input[type="radio"], input[type="checked"]) {
+    height: 35px;
+    border: 2px solid var(--cor-primaria);
+    padding: 15px;
+}
+
+textarea{
+    height: 300px;
+    border: 2px solid var(--cor-primaria);
+    padding: 15;
+}
