@@ -14,8 +14,12 @@
     background-color: var(--cor-primaria);
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+
+.home a img {
+    width: 40px;
 }
 
 .menu ul {

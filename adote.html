@@ -3,13 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/styleAdote.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleAdote.css">
     <title>Adote</title>
+
   </head>
   <body>
     <header class="cabecalho">
-      <div class="" logo></div>
+      <div class="home">
+        <a href="index.html">
+          <img src="./img/home.png" alt="Link tela inicial">
+        </a>
+      </div>
       <nav class="menu">
         <ul>
           <li><a href="#secao-cachorros"> Cachorros </a></li>
@@ -24,134 +29,74 @@
       <h1>Formulário de Adoção</h1>
       <div>
         <label for="">Nome:</label>
-        <input
-          type="text"
-          name="nome"
-          id="nome"
-          placeholder="informe seu nome"
-          required
-        />
+        <input type="text" name="nome" id="nome">
       </div>
       <div>
         <label for="">email</label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="informe seu email"
-          required
-        />
+        <input type="email" name="email" id="email">
       </div>
       <div>
         <label for="">whats</label>
-        <input
-          type="number"
-          name="whats"
-          id="whats"
-          placeholder="infomre seu numero"
-          required
-        />
+        <input type="number" name="whats" id="whats">
       </div>
       <div>
         <label for="endereço">Endereço</label>
-        <input
-          type="text"
-          name="endereço"
-          id="endereço"
-          cols="30"
-          rows="10"
-          placeholder="infomre seu endereço"
-          required
-        />
+        <input type="text" name="endereço" id="endereço">
       </div>
-
+      
       <div>
         <p>Informe sua renda média:</p>
 
-        <div class="container-radio">
-          <div>
-            <input type="radio" name="rendaMedia" id="renda1500" required />
-            <label for="renda1500">R$1000.00 a R$1500.00</label>
-          </div>
+        <div>
+          <input type="radio" name="rendaMedia" id="renda1500">
+          <label for="renda1500">R$1000.00 a R$1500.00</label>
+        </div>
 
-          <div>
-            <input type="radio" name="rendaMedia" id="renda2000" />
-            <label for="renda2000">R$1000.00 a R$2000.00</label>
-          </div>
+        <div>
+          <input type="radio" name="rendaMedia" id="renda2000">
+          <label for="renda2000">R$1000.00 a R$2000.00</label>
+        </div>
 
-          <div>
-            <input type="radio" name="rendaMedia" id="renda1000" />
-            <label for="renda1000">R$1000.00 a R$2500.00</label>
-          </div>
+        <div>
+          <input type="radio" name="rendaMedia" id="renda1000">
+          <label for="renda1000">R$1000.00 a R$2500.00</label>
         </div>
       </div>
 
       <div>
         <p>Informe as comodidades do seu lar</p>
-        <div class="container-checkbox">
-          <div>
-            <input
-              type="checkbox"
-              name="comodidades"
-              id="jardim"
-              value="jardim"
-              required
-            />
-            <label for="jardim">Jardim</label>
-          </div>
+        <div>
+          <input type="checkbox" name="comodidades" id="jardim" value="jardim">
+          <label for="jardim">Jardim</label>
+        </div>
+        
+        <div>
+          <input type="checkbox" name="comodidades" id="sadaca" value="sadaca">
+          <label for="sadaca">Sadaca</label>
+        </div>
 
-          <div>
-            <input
-              type="checkbox"
-              name="comodidades"
-              id="sadaca"
-              value="sadaca"
-            />
-            <label for="sadaca">Sadaca</label>
-          </div>
+        <div>
+          <input type="checkbox" name="comodidades" id="tempo" value="tempo">
+          <label for="tempo">Tempo para passeio </label>
+        </div>
 
-          <div>
-            <input
-              type="checkbox"
-              name="comodidades"
-              id="tempo"
-              value="tempo"
-            />
-            <label for="tempo">Tempo para passeio </label>
-          </div>
-
-          <div>
-            <input
-              type="checkbox"
-              name="comodidades"
-              id="outrospets"
-              value="outrospets"
-            />
-            <label for="outrospets">Outros Pets </label>
-          </div>
+        <div>
+          <input type="checkbox" name="comodidades" id="outrospets" value="outrospets">
+          <label for="outrospets">Outros Pets </label>
         </div>
       </div>
+      
 
       <div>
-        <label for="mensagem">Deixe sua mensagem</label>
-        <textarea
-          name="mensagem"
-          id="mensagem"
-          placeholder="comente sobre suas intenções de adoção"
-          required
-        ></textarea>
-      </div>
-
-      <div class="container-botao">
-        <input type="reset" value="limpar" />
-        <input type="submit" value="Enviar" />
-      </div>
+          <input type="reset" value="limpar">
+          <input type="submit" value="Enviar">
+        </div>
     </form>
 
     <footer class="rodape" id="contato">
       <div class="informacoes-contato">
         <h3>Pets Felizes</h3>
-        <p>Rua José Manuel nº 192</p>
+        <p>Rua José Manuel nº 192 </p>
         <p>Parque São João</p>
       </div>
       <div class="redes-sociais">
